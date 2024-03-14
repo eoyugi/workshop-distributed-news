@@ -25,6 +25,8 @@ contract FunctionsConsumerExample is FunctionsClient, ConfirmedOwner {
     event ArticleAdded(bytes url, uint256 publishedDate);
 
     // CUSTOM PARAMS - START
+    // @Dev TODO check the params are right for your chosen network.
+
     //Sepolia Router address;
     // Additional Routers can be found at
     //   https://docs.chain.link/chainlink-functions/supported-networks
